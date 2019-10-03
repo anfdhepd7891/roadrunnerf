@@ -78,7 +78,7 @@ http:
   # http worker pool configuration.
   workers:
     # php worker command.
-    command:  "php psr-worker.php pipes"
+    command:  "php worker.php"
 
     # connection method (pipes, tcp://:9000, unix://socket.unix). default "pipes"
     relay:    "pipes"
