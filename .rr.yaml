@@ -33,7 +33,7 @@ metrics:
 # http service configuration.
 http:
   # http host to listen.
-  address: 0.0.0.0:8080
+  address: 0.0.0.0:$PORT
 
   ssl:
     # custom https port (default 443)
